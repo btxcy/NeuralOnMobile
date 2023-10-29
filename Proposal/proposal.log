@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  28 OCT 2023 23:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.18)  29 OCT 2023 01:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -909,36 +909,37 @@ s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.184 	
-        <./figure/timeline.png>] [5]
+        <./figure/timeline.png>] [5] [6]
 
-LaTeX Warning: Reference `5involvenestdnn' on page 6 undefined on input line 22
-2.
+LaTeX Warning: Reference `5involvenestdnn' on page 7 undefined on input line 22
+3.
 
 
-Overfull \hbox (5.47571pt too wide) in paragraph at lines 222--223
+Overfull \hbox (5.47571pt too wide) in paragraph at lines 223--224
 []\OT1/ptm/m/n/12 To ex-plain the de-tail of how NestDNN tack-les the two chal-
 lenges men-tioned above, NestDNN
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--230
+Underfull \hbox (badness 10000) in paragraph at lines 227--231
 
  []
 
-[6]
-<./figure/one-shot-steps.png, id=171, 575.14874pt x 204.765pt>
+<./figure/one-shot-steps.png, id=167, 575.14874pt x 204.765pt>
 File: ./figure/one-shot-steps.png Graphic file (type png)
 <use ./figure/one-shot-steps.png>
-Package pdftex.def Info: ./figure/one-shot-steps.png  used on input line 241.
+Package pdftex.def Info: ./figure/one-shot-steps.png  used on input line 242.
 (pdftex.def)             Requested size: 452.9679pt x 161.27202pt.
- [7
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7] [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.256 W
-       hen applying the neural network compression algorithms, we want to en...
- <./figure/one-shot-steps.png>] (proposal.bbl [8]) [9] (proposal.aux)
+l.266 
+       <./figure/one-shot-steps.png>] (proposal.bbl [9]) [10] (proposal.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
@@ -947,26 +948,32 @@ L3 programming layer <2023-10-10>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 063AA96EDE9BD03EF8525DB79FE7D98D;3856.
+
+Package rerunfilecheck Warning: File `proposal.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `proposal.out':
+(rerunfilecheck)             Before: 063AA96EDE9BD03EF8525DB79FE7D98D;3856
+(rerunfilecheck)             After:  956B40E705140A97D92D958848A7F3E6;3874.
  ) 
 Here is how much of TeX's memory you used:
- 21456 strings out of 474824
- 399297 string characters out of 5750976
+ 21461 strings out of 474824
+ 399366 string characters out of 5750976
  1935043 words of memory out of 5000000
- 42970 multiletter control sequences out of 15000+600000
+ 42973 multiletter control sequences out of 15000+600000
  580777 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,87p,1146b,555s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,87p,1442b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/btxcy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmr10.pfb><C:/Users/btxcy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><C:/Users/btxcy/AppData/Local/Programs/MiKTeX/fonts/type1/ur
 w/times/utmb8a.pfb><C:/Users/btxcy/AppData/Local/Programs/MiKTeX/fonts/type1/ur
 w/times/utmr8a.pfb><C:/Users/btxcy/AppData/Local/Programs/MiKTeX/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on proposal.pdf (9 pages, 579174 bytes).
+Output written on proposal.pdf (10 pages, 582231 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
  177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
