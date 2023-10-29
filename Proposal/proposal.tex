@@ -262,7 +262,11 @@ The dynamic tail truncation is used in this algorithm. From the research paper, 
 
 The idea behind the frequency regularization is to maintain the tensors in the frequency domain instead of the spatial domain. By implementing this, it allows the tail elements to be eliminated by a dot product with the zigzag mask matrix. After the dynamic tail truncation mentioned above, the algorithm then inputs the tensors to the inverse discrete cosine transform. The purpose of the inverse discrete cosine transforms is not only the role of reconstructing the spatial tensors. An inverse discrete cosine transform process can be implemented for tensors with any form. It leads to an important functionality, for instance, applied to any tensors from neural networks. 
 
+\subsection{Review on Implementation Mobile Devices}
 
+Nowadays, mobile devices have more and more powerful hardware so that any neural network with fewer parameters can run. For instance, the Android library mentioned the pre-trained models are implementable, and we have successfully implemented them. However, in our project, we are trying to implement more advanced neural networks which may have more parameters involved. We also target to successfully apply the frequency regularization to the neural networks and implement the neural network on the mobile devices.
+
+In the following sections, some researchers successfully implemented the neural network on mobile devices. In Jin's paper, they implement the deep convolutional neural networks on a mobile co processor. They implemented an efficient routing strategy to maximize the utilization of available hardware resources. Moreover, the performance is maintained to a high standard in real-world applications~\cite{6908370}.
 
 \small
 \bibliographystyle{unsrt}
