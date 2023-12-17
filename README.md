@@ -6,13 +6,11 @@ In this repository, we introduce two methods to deploy Frequency Regularization 
 
 ### Repository Structure
 
-The folder `NOM` is code of our Android application. Folders `future_work`, `class_presentation`,`proposal_and_literature_review`, `report`, `source_code_frequency_regularization` are the related documentation or materials used in this project.
+The `NOMApp` refers to the link [here](https://github.com/btxcy/NOMApp.git). The link contains the code of our Android application. Folders `future_work`, `class_presentation`,`proposal_and_literature_review`, `report`, `source_code_frequency_regularization` are the related documentation or materials used in this project.
 
 ```
 .
 ├── README.md
-├── NOM (code of Android application)
-│   └── ...
 ├── future_work
 │   └── future_plan.pdf
 ├── class_presentation
@@ -92,18 +90,22 @@ The folder `NOM` is code of our Android application. Folders `future_work`, `cla
 
 ### Run Android Application on Android Studio
 
-1. Download an Android emulator (e.g. [Android Studio Hedgehog](https://developer.android.com/studio)) and choose version == 2023.1.1.x.
+1. Click the link [here](https://github.com/btxcy/NOMApp.git) and clone the repository. 
 
-2. Download our source code.
+2. Download an Android emulator (e.g. [Android Studio Hedgehog](https://developer.android.com/studio)) and choose version == 2023.1.1.x.
 
-3. Make sure the project structure is correct and rebuild the gradle file.
+3. Download our source code.
+
+4. Make sure the project structure is correct and rebuild the gradle file.
 
    ```
    Android Gradle Plugin Version: 7.1.0
    Gradle Version: 7.2
    ```
 
-4. Run the source code and select the image you want to implement segmentation.
+5. Run the source code and select the image you want to implement segmentation.
+
+*Any updates from this repository would require the user to clone or pull it again.*
 
 ### Run Android Apllication by APK
 
