@@ -38,9 +38,13 @@
 % an abbreviated paper title here
 %
 \author{Wenhao You\inst{1}\orcidlink{0009-0008-3267-5674} \and
-Leo Chang\inst{2}\orcidlink{0009-0006-1497-7279} \and
-Guanfang Dong\inst{3}\orcidlink{0000-0001-9300-2125} \and
-Anup Basu\inst{4}\orcidlink{0000-0002-7695-4148}}
+Leo Chang\inst{1} \and
+Guanfang Dong\orcidlink{0000-0001-9300-2125} \and
+Anup Basu\orcidlink{0000-0002-7695-4148}}
+
+%\orcidlink{0009-0006-1497-7279}
+
+\def\thefootnote{1}\footnotetext{Authors contributed equally to this work.}
 %
 \authorrunning{W. You et al.}
 % First names are abbreviated in the running head.
@@ -62,7 +66,7 @@ We implemented a compressed algorithm frequency regularization (FR) on Android d
 %
 \section{Introduction}
 
-Currently, people cannot live without mobile devices. They are not only for communication and entertainment, the information transformation is also a significant feature. Their portability and versatility make them play an important role in our daily lives. Meanwhile, convolutional neural networks (CNNs) are also vital in some research areas such as computer vision and other interdisciplinary data analysis. However, these neural networks are usually implemented on high-end hardware because of their huge amount of parameters and layers. It means that only a few researchers work on the deployment of neural networks on mobile. There exists several advantages of running convolutional neural networks on mobile devices: privacy, internet, and runtime. First, personal information does not need to be uploaded or transmitted to the cloud servers which improves the privacy enhancement. Second, the functionality on local devices can replace some internet services. Therefore, it is independent from the internet connection. Last, in some applications that need real-time feedback, without connecting to the cloud server can shorten the processing time which decrease the runtime. In all, convolutional neural networks can totally replace the usage of many applications on mobile devices, ensuring personal data security. %??
+Currently, people cannot live without mobile devices. They are not only for communication and entertainment, the information transformation is also a significant feature. Their portability and versatility make them play an important role in our daily lives. Meanwhile, convolutional neural networks (CNNs) are also vital in some research areas such as computer vision and other interdisciplinary data analysis. However, these neural networks are usually implemented on high-end hardware because of their huge amount of parameters and layers. It means that only a few researchers work on the deployment of neural networks on mobile. There exists several advantages of running convolutional neural networks on mobile devices: privacy, internet, and runtime. First, personal information does not need to be uploaded or transmitted to the cloud servers which improves the privacy enhancement. Second, the functionality on local devices can replace some internet services. Therefore, it is independent from the internet connection. Last, in some applications that need real-time feedback, without connecting to the cloud server can shorten the processing time which decrease the runtime. In all, deploying convolutional neural networks can increase the usability and functionality of mobile devices. The deployment can also ensure the personal data security.
 
 According to the popularity of mobile devices and the benefits of convolutional neural networks, we want to find a way to deploy some large and complex convolutional neural networks on mobile devices, leading to the question: ``How can we deploy large convolutional neural networks on mobile devices?''
 
@@ -84,9 +88,7 @@ In our work, before optimizing the existing FR code~\cite{fr_repo}, we have two 
 	\item Developing Android application containing original frequency regularization algorithm and all the other optimized versions to apply image segmentation.
 \end{enumerate}
 
-Our optimized models achieve the RAM usage around $1.932$ GB whereas the RAM usage of original frequency regularization algorithm is around $3.270$ GB on Android devices. This means the optimized models are $40.9\%$ relative improvements over previous algorithm~\cite{zhao2023fr},~\cite{fr_repo} specially for Android devices. %??
-
-
+Our optimized models achieve the RAM usage around $1.932$ GB whereas the RAM usage of original frequency regularization algorithm is around $3.270$ GB on Android devices. It means the optimized models are $40.9\%$ relative improvements over the original algorithm~\cite{zhao2023fr},~\cite{fr_repo}. 
 
 \section{Related Work}\label{related_work}
 There are four main related works in this Section: Extreme Learning Machine (ELM)~\cite{anton2021elm},~\cite{ding2014elmapp},~\cite{wang2022elmapp},~\cite{deng2015elmapp},~\cite{huang2006elmapp}, NestDNN~\cite{fang2018nestdnn}, ``One-shot Whole Network Compression''~\cite{kim2016oneshot}, and Frequency Regularization~\cite{zhao2023fr},~\cite{fr_repo}. 
